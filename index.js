@@ -9,9 +9,15 @@ app.get("/",(req,res)=>{
     res.send("thai master chefs api is running");
 });
 
-const shefs = require("./data/shefs.json");
-app.get("/shefs" , (req, res)=>{
-    res.send(shefs);
+const chefs = require("./data/shefs.json");
+app.get("/chefs" , (req, res)=>{
+    res.send(chefs);
+})
+
+app.get("/chefs/:id" , (req,res)=>{
+    const id = req.params.id;
+    const selectedChef =  chefs.find(cf => cf.id == id);
+    res.send(selectedChef);
 })
 
 app.listen(port , ()=>{
