@@ -1,0 +1,415 @@
+[
+    {
+      "id": 1,
+      "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStI-bU91QwjrKtg5WNneBartSvYxTjMSJLEw&usqp=CAU",
+      "chef_name": "Chef John Doe",
+      "chef_description": "Award-winning chef with 20 years of experience.",
+      "chef_experience": "20 years",
+      "recipe_number": 3,
+      "likes": 100,
+      "recipe_info": [
+        {
+          "recipe_name": "Spaghetti Carbonara",
+          "ingredients": ["spaghetti", "bacon", "eggs", "parmesan cheese", "black pepper"],
+          "cooking_method": "1. Cook spaghetti in boiling water. 2. Fry bacon. 3. Whisk eggs and cheese. 4. Mix everything together.",
+          "rating": 4.5
+        },
+        {
+          "recipe_name": "Beef Wellington",
+          "ingredients": ["beef fillet", "puff pastry", "mushrooms", "shallots", "egg wash"],
+          "cooking_method": "1. Sear beef. 2. Saute mushrooms and shallots. 3. Wrap beef in pastry. 4. Brush with egg wash. 5. Bake.",
+          "rating": 4.8
+        },
+        {
+          "recipe_name": "Lemon Chicken",
+          "ingredients": ["chicken breast", "lemon", "garlic", "rosemary", "olive oil"],
+          "cooking_method": "1. Marinate chicken in lemon juice, garlic, and rosemary. 2. Grill or pan-fry chicken. 3. Serve with lemon wedges.",
+          "rating": 4.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo97JE83SBoeJipmlsKyOMB0sVJ5Qe2QgkCQ&usqp=CAU",
+      "chef_name": "Chef Jane Smith",
+      "chef_description": "Michelin-starred chef with a passion for fusion cuisine.",
+      "chef_experience": "15 years",
+      "recipe_number": 2,
+      "likes": 50,
+      "recipe_info": [
+        {
+          "recipe_name": "Sushi Burrito",
+          "ingredients": ["sushi rice", "nori", "tuna", "avocado", "cucumber"],
+          "cooking_method": "1. Cook sushi rice. 2. Lay nori flat. 3. Spread rice on nori. 4. Add tuna, avocado, and cucumber. 5. Roll up like a burrito.",
+          "rating": 4.6
+        },
+        {
+          "recipe_name": "Tandoori Chicken Pizza",
+          "ingredients": ["pizza dough", "tandoori chicken", "red onion", "bell pepper", "mozzarella cheese"],
+          "cooking_method": "1. Preheat oven. 2. Roll out pizza dough. 3. Spread tandoori chicken, onion, and bell pepper. 4. Top with cheese. 5. Bake.",
+          "rating": 4.4
+        }
+      ]
+    },
+    {
+        "id": 3,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPrkvQfBHxQWx64m7jwRJ_-5B1Nh8nqTAAA&usqp=CAU",
+        "chef_name": "Chef Maria Rodriguez",
+        "chef_description": "Specializes in traditional Thai cuisine.",
+        "chef_experience": "15 years",
+        "recipe_number": 4,
+        "likes": 75,
+        "recipe_info": [
+          {
+            "recipe_name": "Chiles Rellenos",
+            "ingredients": ["poblano peppers", "ground beef", "tomatoes", "onions", "monterey jack cheese"],
+            "cooking_method": "1. Roast peppers. 2. Cook beef with tomatoes and onions. 3. Stuff peppers with beef and cheese. 4. Bake until cheese is melted.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Enchiladas Verdes",
+            "ingredients": ["corn tortillas", "chicken", "tomatillos", "jalapenos", "onion"],
+            "cooking_method": "1. Cook chicken. 2. Blend tomatillos, jalapenos, and onion. 3. Dip tortillas in sauce. 4. Add chicken and roll up. 5. Bake until golden.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Tacos al Pastor",
+            "ingredients": ["pork shoulder", "pineapple", "onion", "cilantro", "corn tortillas"],
+            "cooking_method": "1. Marinate pork with spices and pineapple. 2. Grill or roast pork. 3. Serve with onions, cilantro, and pineapple. 4. Wrap in tortillas.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Mole Poblano",
+            "ingredients": ["chicken", "dried chiles", "spices", "nuts", "dark chocolate"],
+            "cooking_method": "1. Toast chiles and spices. 2. Blend with nuts and chocolate. 3. Cook chicken in sauce. 4. Serve with rice.",
+            "rating": 4.2
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGSKtNxnYC9N_jqCzawZb5dX6AmM8bLf5zdg&usqp=CAU",
+        "chef_name": "Chef Emily Kim",
+        "chef_description": "Former pastry chef turned food blogger.",
+        "chef_experience": "10 years",
+        "recipe_number": 5,
+        "likes": 200,
+        "recipe_info": [
+          {
+            "recipe_name": "Chocolate Chip Cookies",
+            "ingredients": ["butter", "sugar", "brown sugar", "eggs", "flour"],
+            "cooking_method": "1. Cream butter and sugars. 2. Beat in eggs. 3. Mix in flour and chocolate chips. 4. Bake at 375F for 10-12 minutes.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Banana Bread",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Mash bananas. 2. Mix in sugar, butter, and eggs. 3. Add flour and mix until just combined. 4. Bake at 350F for 50-60 minutes.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Blueberry Muffins",
+            "ingredients": ["flour", "sugar", "butter", "milk", "blueberries"],
+            "cooking_method": "1. Mix flour, sugar, and butter. 2. Beat in milk and eggs. 3. Fold in blueberries. 4. Bake at 375F for 20-25 minutes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Pumpkin Pie",
+            "ingredients": ["pumpkin puree", "eggs", "sugar", "cinnamon", "nutmeg"],
+            "cooking_method": "1. Mix pumpkin puree, eggs, sugar, and spices. 2. Pour into pie crust. 3. Bake at 350F for 50-60 minutes.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Carrot Cake",
+            "ingredients": ["carrots", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Grate carrots. 2. Mix in flour, sugar, and eggs. 3. Beat in butter. 4. Bake at 350F for 30-40 minutes.",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Pvq81kfP5JSFvIWVLvkXLzPIF8P_AFCleQ&usqp=CAU",
+        "chef_name": "Chef Paolo Rossi",
+        "chef_description": "Thai chef who specializes in seafood dishes. With a passion for seafood and the Mediterranean way of life, Chef Rossi's innovative dishes, inspired by the flavors of the sea, have won numerous awards and accolades over the years. His signature dishes include grilled octopus with lemon and herbs, spaghetti alle vongole, and branzino baked in sea salt.",
+        "chef_experience": "10 years",
+        "recipe_number": 5,
+        "likes": 200,
+        "recipe_info": [
+          {
+            "recipe_name": "Chocolate Chip Cookies",
+            "ingredients": ["butter", "sugar", "brown sugar", "eggs", "flour"],
+            "cooking_method": "1. Cream butter and sugars. 2. Beat in eggs. 3. Mix in flour and chocolate chips. 4. Bake at 375F for 10-12 minutes.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Banana Bread",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Mash bananas. 2. Mix in sugar, butter, and eggs. 3. Add flour and mix until just combined. 4. Bake at 350F for 50-60 minutes.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Blueberry Muffins",
+            "ingredients": ["flour", "sugar", "butter", "milk", "blueberries"],
+            "cooking_method": "1. Mix flour, sugar, and butter. 2. Beat in milk and eggs. 3. Fold in blueberries. 4. Bake at 375F for 20-25 minutes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Pumpkin Pie",
+            "ingredients": ["pumpkin puree", "eggs", "sugar", "cinnamon", "nutmeg"],
+            "cooking_method": "1. Mix pumpkin puree, eggs, sugar, and spices. 2. Pour into pie crust. 3. Bake at 350F for 50-60 minutes.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Carrot Cake",
+            "ingredients": ["carrots", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Grate carrots. 2. Mix in flour, sugar, and eggs. 3. Beat in butter. 4. Bake at 350F for 30-40 minutes.",
+            "rating": 4.5
+          }
+        ]
+      },
+      
+      
+      {
+        "id": 6,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOxVFlBkQpXhI7HWJzE476y1nH1QLCHfM-cQ&usqp=CAU",
+        "chef_name": "Chef Leila Ahmed ",
+        "chef_description": "Lebanese chef known for her innovative Middle Eastern fusion cuisine. Chef Ahmed grew up surrounded by the rich flavors and aromas of her homeland, and she blends traditional Lebanese recipes with modern techniques to create unique and exciting dishes that are sure to delight the palate.",
+        "chef_experience": "10 years",
+        "recipe_number": 4,
+        "likes": 200,
+        "recipe_info": [
+          {
+            "recipe_name": "Chocolate Chip Cookies",
+            "ingredients": ["butter", "sugar", "brown sugar", "eggs", "flour"],
+            "cooking_method": "1. Cream butter and sugars. 2. Beat in eggs. 3. Mix in flour and chocolate chips. 4. Bake at 375F for 10-12 minutes.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Banana Bread",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Mash bananas. 2. Mix in sugar, butter, and eggs. 3. Add flour and mix until just combined. 4. Bake at 350F for 50-60 minutes.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Blueberry Muffins",
+            "ingredients": ["flour", "sugar", "butter", "milk", "blueberries"],
+            "cooking_method": "1. Mix flour, sugar, and butter. 2. Beat in milk and eggs. 3. Fold in blueberries. 4. Bake at 375F for 20-25 minutes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Pumpkin Pie",
+            "ingredients": ["pumpkin puree", "eggs", "sugar", "cinnamon", "nutmeg"],
+            "cooking_method": "1. Mix pumpkin puree, eggs, sugar, and spices. 2. Pour into pie crust. 3. Bake at 350F for 50-60 minutes.",
+            "rating": 4.8
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbn98HHPXFfo3PJQ5-dZb0_C_wxTHfSApnVg&usqp=CAU",
+        "chef_name": "Chef David Kim ",
+        "chef_description": "Korean-American chef who combines traditional Korean flavors with modern techniques. Chef Kim's passion for Korean cuisine shines through in every dish he creates, and his innovative approach has earned him a reputation as one of the top Korean chefs in the country.",
+        "chef_experience": "10 years",
+        "recipe_number": 4,
+        "likes": 200,
+        "recipe_info": [
+          {
+            "recipe_name": "Chocolate Chip Cookies",
+            "ingredients": ["butter", "sugar", "brown sugar", "eggs", "flour"],
+            "cooking_method": "1. Cream butter and sugars. 2. Beat in eggs. 3. Mix in flour and chocolate chips. 4. Bake at 375F for 10-12 minutes.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Banana Bread",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Mash bananas. 2. Mix in sugar, butter, and eggs. 3. Add flour and mix until just combined. 4. Bake at 350F for 50-60 minutes.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Blueberry Muffins",
+            "ingredients": ["flour", "sugar", "butter", "milk", "blueberries"],
+            "cooking_method": "1. Mix flour, sugar, and butter. 2. Beat in milk and eggs. 3. Fold in blueberries. 4. Bake at 375F for 20-25 minutes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Pumpkin Pie",
+            "ingredients": ["pumpkin puree", "eggs", "sugar", "cinnamon", "nutmeg"],
+            "cooking_method": "1. Mix pumpkin puree, eggs, sugar, and spices. 2. Pour into pie crust. 3. Bake at 350F for 50-60 minutes.",
+            "rating": 4.8
+          }
+        ]
+      },
+      
+    {
+      "id": 8,
+      "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1q540Uw5FaPCUH4fTwvL85-dVDdx7zIYkCwGS7DYqKwuODMbgA6W8vaKQ4lQjje2fgI&usqp=CAU",
+      "chef_name": "Chef Carmen Gonzalez",
+      "chef_description": "Puerto Rican chef who creates authentic Latin American dishes with a contemporary twist. Chef Gonzalez's passion for Latin American cuisine is evident in every dish she creates, and she is known for her use of fresh, seasonal ingredients and bold flavors.",
+      "chef_experience": "20 years",
+      "recipe_number": 3,
+      "likes": 100,
+      "recipe_info": [
+        {
+          "recipe_name": "Spaghetti Carbonara",
+          "ingredients": ["spaghetti", "bacon", "eggs", "parmesan cheese", "black pepper"],
+          "cooking_method": "1. Cook spaghetti in boiling water. 2. Fry bacon. 3. Whisk eggs and cheese. 4. Mix everything together.",
+          "rating": 4.5
+        },
+        {
+          "recipe_name": "Beef Wellington",
+          "ingredients": ["beef fillet", "puff pastry", "mushrooms", "shallots", "egg wash"],
+          "cooking_method": "1. Sear beef. 2. Saute mushrooms and shallots. 3. Wrap beef in pastry. 4. Brush with egg wash. 5. Bake.",
+          "rating": 4.8
+        },
+        {
+          "recipe_name": "Lemon Chicken",
+          "ingredients": ["chicken breast", "lemon", "garlic", "rosemary", "olive oil"],
+          "cooking_method": "1. Marinate chicken in lemon juice, garlic, and rosemary. 2. Grill or pan-fry chicken. 3. Serve with lemon wedges.",
+          "rating": 4.2
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx6z03jFNzqznTTyNCC_-WAqrs3tcAh4nVEg&usqp=CAU",
+      "chef_name": "Chef Mikhail Ivanov ",
+      "chef_description": "Russian chef who focuses on hearty, traditional dishes from the Siberian region. Chef Ivanov's rustic, hearty dishes are inspired by the harsh Siberian climate, and he uses traditional techniques and ingredients to create dishes that are both delicious and comforting.",
+      "chef_experience": "15 years",
+      "recipe_number": 2,
+      "likes": 50,
+      "recipe_info": [
+        {
+          "recipe_name": "Sushi Burrito",
+          "ingredients": ["sushi rice", "nori", "tuna", "avocado", "cucumber"],
+          "cooking_method": "1. Cook sushi rice. 2. Lay nori flat. 3. Spread rice on nori. 4. Add tuna, avocado, and cucumber. 5. Roll up like a burrito.",
+          "rating": 4.6
+        },
+        {
+          "recipe_name": "Tandoori Chicken Pizza",
+          "ingredients": ["pizza dough", "tandoori chicken", "red onion", "bell pepper", "mozzarella cheese"],
+          "cooking_method": "1. Preheat oven. 2. Roll out pizza dough. 3. Spread tandoori chicken, onion, and bell pepper. 4. Top with cheese. 5. Bake.",
+          "rating": 4.4
+        }
+      ]
+    },
+    {
+        "id": 10,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWPr5hLA3-D2U6yQF2A1lJH4HgqjZ_kkFGQ&usqp=CAU",
+        "chef_name": "Chef Aisha Patel",
+        "chef_description": "Indian chef who blends traditional recipes with modern, healthy twists. Chef Patel's dishes are a fusion of traditional Indian recipes and modern techniques, with a focus on healthy, nutrient-dense ingredients.",
+        "chef_experience": "15 years",
+        "recipe_number": 4,
+        "likes": 75,
+        "recipe_info": [
+          {
+            "recipe_name": "Chiles Rellenos",
+            "ingredients": ["poblano peppers", "ground beef", "tomatoes", "onions", "monterey jack cheese"],
+            "cooking_method": "1. Roast peppers. 2. Cook beef with tomatoes and onions. 3. Stuff peppers with beef and cheese. 4. Bake until cheese is melted.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Enchiladas Verdes",
+            "ingredients": ["corn tortillas", "chicken", "tomatillos", "jalapenos", "onion"],
+            "cooking_method": "1. Cook chicken. 2. Blend tomatillos, jalapenos, and onion. 3. Dip tortillas in sauce. 4. Add chicken and roll up. 5. Bake until golden.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Tacos al Pastor",
+            "ingredients": ["pork shoulder", "pineapple", "onion", "cilantro", "corn tortillas"],
+            "cooking_method": "1. Marinate pork with spices and pineapple. 2. Grill or roast pork. 3. Serve with onions, cilantro, and pineapple. 4. Wrap in tortillas.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Mole Poblano",
+            "ingredients": ["chicken", "dried chiles", "spices", "nuts", "dark chocolate"],
+            "cooking_method": "1. Toast chiles and spices. 2. Blend with nuts and chocolate. 3. Cook chicken in sauce. 4. Serve with rice.",
+            "rating": 4.2
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5jmRiBdf2Y1Fn_Eu1akuIAUOwMSOmYBP51w&usqp=CAU",
+        "chef_name": "Chef Marcel Dupont",
+        "chef_description": "French chef with a passion for classic French cuisine, particularly the dishes of Provence. Chef Dupont's dishes are inspired by the sunny, Mediterranean flavors of Provence, and he uses only the freshest, highest-quality ingredients to create dishes that are both classic and innovative.",
+        "chef_experience": "10 years",
+        "recipe_number": 5,
+        "likes": 200,
+        "recipe_info": [
+          {
+            "recipe_name": "Chocolate Chip Cookies",
+            "ingredients": ["butter", "sugar", "brown sugar", "eggs", "flour"],
+            "cooking_method": "1. Cream butter and sugars. 2. Beat in eggs. 3. Mix in flour and chocolate chips. 4. Bake at 375F for 10-12 minutes.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Banana Bread",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Mash bananas. 2. Mix in sugar, butter, and eggs. 3. Add flour and mix until just combined. 4. Bake at 350F for 50-60 minutes.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Blueberry Muffins",
+            "ingredients": ["flour", "sugar", "butter", "milk", "blueberries"],
+            "cooking_method": "1. Mix flour, sugar, and butter. 2. Beat in milk and eggs. 3. Fold in blueberries. 4. Bake at 375F for 20-25 minutes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Pumpkin Pie",
+            "ingredients": ["pumpkin puree", "eggs", "sugar", "cinnamon", "nutmeg"],
+            "cooking_method": "1. Mix pumpkin puree, eggs, sugar, and spices. 2. Pour into pie crust. 3. Bake at 350F for 50-60 minutes.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Carrot Cake",
+            "ingredients": ["carrots", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Grate carrots. 2. Mix in flour, sugar, and eggs. 3. Beat in butter. 4. Bake at 350F for 30-40 minutes.",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "chef_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_m8vSzUDhog8NA_5QTHPZvnA8H_0SNznJJw&usqp=CAU",
+        "chef_name": "Chef Mei Chen",
+        "chef_description": "Chinese chef who specializes in regional Chinese dishes, particularly those from Sichuan and Hunan. Chef Chen's dishes are a celebration of the bold, spicy flavors of Sichuan and Hunan cuisine, and she uses traditional techniques and ingredients to create dishes that are both authentic and delicious.",
+        "chef_experience": "10 years",
+        "recipe_number": 5,
+        "likes": 200,
+        "recipe_info": [
+          {
+            "recipe_name": "Chocolate Chip Cookies",
+            "ingredients": ["butter", "sugar", "brown sugar", "eggs", "flour"],
+            "cooking_method": "1. Cream butter and sugars. 2. Beat in eggs. 3. Mix in flour and chocolate chips. 4. Bake at 375F for 10-12 minutes.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Banana Bread",
+            "ingredients": ["bananas", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Mash bananas. 2. Mix in sugar, butter, and eggs. 3. Add flour and mix until just combined. 4. Bake at 350F for 50-60 minutes.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Blueberry Muffins",
+            "ingredients": ["flour", "sugar", "butter", "milk", "blueberries"],
+            "cooking_method": "1. Mix flour, sugar, and butter. 2. Beat in milk and eggs. 3. Fold in blueberries. 4. Bake at 375F for 20-25 minutes.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Pumpkin Pie",
+            "ingredients": ["pumpkin puree", "eggs", "sugar", "cinnamon", "nutmeg"],
+            "cooking_method": "1. Mix pumpkin puree, eggs, sugar, and spices. 2. Pour into pie crust. 3. Bake at 350F for 50-60 minutes.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Carrot Cake",
+            "ingredients": ["carrots", "flour", "sugar", "butter", "eggs"],
+            "cooking_method": "1. Grate carrots. 2. Mix in flour, sugar, and eggs. 3. Beat in butter. 4. Bake at 350F for 30-40 minutes.",
+            "rating": 4.5
+          }
+        ]
+      }  
+
+]
